@@ -53,10 +53,24 @@ var dArray =[[3,4,5],[5,4,3],[7,8,9,10,11],[8,9,0]];
 var lArray =dArray[2][4];
 console.log(lArray);
 
-var mArray=[[2,4,6,] [0,0,0,0,][4,4,8,9,][0,9,8,8]];
+var mArray=[[2,4,6,],[0,0,0,0,],[4,4,8,9,],[0,9,8,8]];
 var nArray=mArray[0][2];
 console.log(nArray);
-//
+
+
+//Javascript book
+//bolean data type!
+var instock = true;
+var shipping= false;
+//some Js terms
+/* Expressions
+comments
+operators
+ */
+//operators
+
+var subTotal =(13+1)*5;
+var shipping =0.5*(13+1);
 
 
 
