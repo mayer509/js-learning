@@ -66,12 +66,19 @@ var shipping= false;
 /* Expressions
 comments
 operators
+events
+methods
  */
 //operators
 
 var subTotal =(13+1)*5;
 var shipping =0.5*(13+1);
+var total =subTotal+shipping;
 
+var elSub =document.getElementById('subTotal');
+var elShip=document.getElementById('shipping');
+var elTotal=document.getElementById('total');
+elTotal.textContent=total;
 
 
 
