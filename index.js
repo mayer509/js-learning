@@ -79,6 +79,30 @@ var elSub =document.getElementById('subTotal');
 var elShip=document.getElementById('shipping');
 var elTotal=document.getElementById('total');
 elTotal.textContent=total;
+//functions
+function getSize(width, height, depth){
+  var area = width * height;
+  var volume = width * height * depth;
+  var sizes = [area, volume];
+  return sizes;
+}
+var areaOne = getSize(3, 2, 3)[0];
+var volumeOne = getSize(3, 2, 3)[1];
+
+var area = function(width,height){
+  return width * height;
+}
+var size =area(4,5);
+console.log(size);
+
+var area1 =(function(){
+  var width1= 2;
+  var height1=8;
+  return width1 * height1;
+}())
+ 
+
+
 
 
 
