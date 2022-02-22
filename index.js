@@ -101,6 +101,24 @@ var area1 =(function(){
   return width1 * height1;
 }())
  
+/* function greeting(){
+  var name =prompt("what is your name?");
+  var result1 = "hello " + name;
+  console.log(result1) 
+}
+greeting();
+*/    
+
+//function with local var
+function division(){
+  var no1 =64;
+  var no2 =8;
+  return no1 / no2;
+}
+division()
+console.log(division());
+
+ 
 
 
 
