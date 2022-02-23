@@ -68,6 +68,7 @@ comments
 operators
 events
 methods
+integers
  */
 //operators
 
