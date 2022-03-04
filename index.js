@@ -1,5 +1,5 @@
 // Import stylesheets
-import './style.css';
+
 
 // Write Javascript code!
 //const appDiv = document.getElementById('app');
@@ -78,7 +78,34 @@ var total =subTotal+shipping;
 var elSub =document.getElementById('subTotal');
 var elShip=document.getElementById('shipping');
 var elTotal=document.getElementById('total');
-elTotal.textContent=total;
+//elTotal.textContent=total;
+
+var numn = 0;
+
+/*while (numn < 100){
+  numn += 1;
+  console.log(numn)
+}*/
+
+// for loops
+for (let num = 0; num <=50; num++){
+  console.log(num);
+}
+
+let fruit = "banana";
+let moreFruits = "banana\napple";
+
+console.log(fruit.indexOf('b'));
+console.log(fruit.slice(2, 5))
+console.log(fruit.replace("nan", "non"));
+console.log(fruit.toUpperCase());
+console.log(fruit.toLowerCase());
+console.log(fruit.split("")); //split by character
+console.log(fruit.charAt(2));
+
+
+
+
 
 
 
