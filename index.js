@@ -1,5 +1,6 @@
-// Import stylesheets
-import "./style.css";
+// Import styleshee
+
+
 
 // Write Javascript code!
 //const appDiv = document.getElementById('app');
@@ -81,60 +82,4 @@ integers
  */
 //operators
 
-var subTotal = (13 + 1) * 5;
-var shipping = 0.5 * (13 + 1);
-var total = subTotal + shipping;
 
-var elSub = document.getElementById("subTotal");
-var elShip = document.getElementById("shipping");
-var elTotal = document.getElementById("total");
-elTotal.textContent = total;
-//functions
-function getSize(width, height, depth) {
-  var area = width * height;
-  var volume = width * height * depth;
-  var sizes = [area, volume];
-  return sizes;
-}
-var areaOne = getSize(3, 2, 3)[0];
-var volumeOne = getSize(3, 2, 3)[1];
-
-var area = function (width, height) {
-  return width * height;
-};
-var size = area(4, 5);
-console.log(size);
-
-var area1 = (function () {
-  var width1 = 2;
-  var height1 = 8;
-  return width1 * height1;
-})();
-
-/* function greeting(){
-  var name =prompt("what is your name?");
-  var result1 = "hello " + name;
-  console.log(result1) 
-}
-greeting();
-*/
-
-//function with local var
-function division() {
-  var no1 = 64;
-  var no2 = 8;
-  return no1 / no2;
-}
-division();
-console.log(division());
-//objects
-let man = {
-  firstName: "bob",
-  lastNama: "jean",
-  age: 45,
-  siblings: [
-    ["stacy", 25],
-    ["sassy", 21]
-  ]
-};
-console.log(man);
